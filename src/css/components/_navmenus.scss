@@ -1,0 +1,41 @@
+.navmenu {
+    position: relative;
+
+    i {
+        margin-right: 1.5rem;
+    }
+
+    ul {
+        display: none;
+        width: 10.5rem;
+        padding: 1rem;
+        position: absolute;
+        top: 2.5rem;
+        right: -20rem;
+        list-style: none;
+        background-color: $color1;
+
+        li {
+            margin-bottom: 1rem;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
+    }
+
+    &__section {
+        font-size: 1.4rem;
+        text-align: end;
+        text-decoration: underline;
+        color: $color-dark;
+    }
+
+    &:focus,
+    &:hover,
+    &:active {
+        ul {
+            display: block;
+            right: 1rem;    
+        }
+    }
+}
