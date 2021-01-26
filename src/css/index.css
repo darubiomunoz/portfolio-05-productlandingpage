@@ -97,4 +97,57 @@ html {
   display: block;
   right: 1rem;
 }
+
+.contact {
+  padding: 3rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.contact__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contact__email {
+  margin-bottom: 1.2rem;
+  padding: 0.5rem;
+  border: 0.1rem solid #000;
+  border-radius: 0.3rem;
+}
+
+.title--contact {
+  font-weight: 900;
+}
+
+.button--contact {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 0.3rem;
+  background-color: #F1C40F;
+  font-weight: 700;
+}
 /*# sourceMappingURL=index.css.map */
