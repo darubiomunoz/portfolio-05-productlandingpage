@@ -3,11 +3,16 @@
     border: none;
     border-radius: $border-radius;
     background-color: $color2;
-    font-weight: $font-weight-bold
+    font-weight: $font-weight-bold;
+    color: $color-dark;
 }
 
 .button--pricing {
     @extend .button--contact;
     
     margin-top: 1rem;
+
+    a {
+        color: $color-dark;
+    }
 }
