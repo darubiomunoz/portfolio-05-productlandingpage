@@ -38,6 +38,14 @@ html {
   cursor: pointer;
 }
 
+.icon-tick,
+.icon-plane,
+.icon-star {
+  font-size: 4rem;
+  margin-right: .5rem;
+  color: #FF8C00;
+}
+
 .logo {
   width: 70%;
   height: 100%;
@@ -143,11 +151,40 @@ html {
   font-weight: 900;
 }
 
+.title--features {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: .5rem;
+}
+
 .button--contact {
   padding: 0.5rem;
   border: none;
   border-radius: 0.3rem;
   background-color: #F1C40F;
   font-weight: 700;
+}
+
+.features {
+  width: 90%;
+  margin: 0 auto;
+  padding: 3rem 0;
+}
+
+.features > div {
+  padding: 1rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.features__info {
+  font-size: 1.4rem;
 }
 /*# sourceMappingURL=index.css.map */

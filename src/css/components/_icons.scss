@@ -1,3 +1,11 @@
 .icon-menu {
     cursor: pointer;
 }
+
+.icon-tick,
+.icon-plane,
+.icon-star {
+    font-size: 4rem;
+    margin-right: .5rem;
+    color: $color3;
+}

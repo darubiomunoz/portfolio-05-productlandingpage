@@ -1,0 +1,17 @@
+.features {
+    width: 90%;
+    margin: 0 auto;
+    padding: $padding-x-big 0;
+    
+
+    > div {
+        padding: 1rem 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__info {
+        font-size: 1.4rem;
+    }
+}
