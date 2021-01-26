@@ -33,6 +33,8 @@
     &:focus,
     &:hover,
     &:active {
+        color: $color3;
+
         ul {
             display: block;
             right: 1rem;    

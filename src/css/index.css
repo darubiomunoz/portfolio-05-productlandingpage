@@ -16,7 +16,7 @@ html {
 }
 
 .body {
-  background-color: #EEE;
+  background-color: #FFF;
 }
 
 .header {
@@ -36,7 +36,7 @@ html {
       -ms-flex-align: center;
           align-items: center;
   font-size: 1.5rem;
-  background-color: #EEE;
+  background-color: #FFF;
 }
 
 .icon-menu {
@@ -106,6 +106,10 @@ html {
   color: #000;
 }
 
+.navmenu:focus, .navmenu:hover, .navmenu:active {
+  color: #FF8C00;
+}
+
 .navmenu:focus ul, .navmenu:hover ul, .navmenu:active ul {
   display: block;
   right: 1rem;
@@ -162,12 +166,25 @@ html {
   margin-bottom: .5rem;
 }
 
-.button--contact {
+.title--pricing {
+  width: 100%;
+  text-align: center;
+  line-height: 3rem;
+  background-color: #EEE;
+  font-size: 1.8rem;
+  font-weight: 900;
+}
+
+.button--contact, .button--pricing {
   padding: 0.5rem;
   border: none;
   border-radius: 0.3rem;
   background-color: #F1C40F;
   font-weight: 700;
+}
+
+.button--pricing {
+  margin-top: 1rem;
 }
 
 .features {
@@ -191,5 +208,79 @@ html {
 
 .features__info {
   font-size: 1.4rem;
+}
+
+.pricing {
+  width: 90%;
+  margin: 0 auto;
+  font-size: 1.4rem;
+}
+
+.pricing__box {
+  margin: 3rem 0;
+  padding-bottom: 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 0.1rem solid #000;
+  border-radius: 0.3rem;
+}
+
+.pricing__price {
+  margin: 1.5rem 0;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.pricing__info {
+  margin-bottom: 0.5rem;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding: 1.5rem 0;
+  padding-right: 1.5rem;
+  background-color: #EEE;
+  font-size: 1.4rem;
+}
+
+.footer > ul {
+  margin-bottom: 0.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.footer__link {
+  list-style: none;
+  margin-left: 1.5rem;
+}
+
+.footer__copyright {
+  margin-bottom: 0.5rem;
+}
+
+.footer a {
+  color: #000;
+  font-weight: 700;
 }
 /*# sourceMappingURL=index.css.map */

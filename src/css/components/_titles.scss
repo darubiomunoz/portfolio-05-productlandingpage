@@ -7,3 +7,12 @@
     font-weight: $font-weight-bold;
     margin-bottom: .5rem;
 }
+
+.title--pricing {
+    width: 100%;
+    text-align: center;
+    line-height: 3rem;
+    background-color: $color1;
+    font-size: 1.8rem;
+    font-weight: $font-weight-x-bold
+}

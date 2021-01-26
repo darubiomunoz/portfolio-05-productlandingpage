@@ -5,3 +5,9 @@
     background-color: $color2;
     font-weight: $font-weight-bold
 }
+
+.button--pricing {
+    @extend .button--contact;
+    
+    margin-top: 1rem;
+}
