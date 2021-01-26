@@ -1,0 +1,139 @@
+@media screen and (min-width: 411px) {
+    .video {
+        width: 70%;
+    }
+
+    .pricing {
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .header {
+        height: 10vh;
+        display: flex;
+        align-items: center;
+        font-size: 1.8rem;
+    }
+
+    .logo {
+        width: 50%;
+        height: 70%;
+    }
+
+    .navmenu {
+        i {
+            display: none;
+        }
+
+        ul {
+            width: auto;
+            padding: 0;
+            position: relative;
+            display: flex;
+            top: 0;
+            right: 0;
+            background-color: $color-clair;
+        }
+
+        li {
+            margin-bottom: 0;
+            margin-right: $padding-medium;
+        }
+
+        &__section {
+            font-size: 1.8rem;
+            text-decoration: none;
+        }
+
+        &:focus,
+        &:hover,
+        &:active {
+            ul {
+                display: flex;
+                right: 0;
+            }
+        }
+    }
+
+    .title--contact {
+        font-size: 3.5rem;
+    }
+
+    .contact {
+        &__email {
+            font-size: 1.8rem;
+        }
+    }
+
+    .button--contact {
+        font-size: 1.8rem;
+    }
+
+    .features {
+        width: 70%;
+
+        > div {
+            padding: 2rem 0;
+        }
+
+        &__info {
+            font-size: 1.8rem;
+        }
+    }
+
+    .title--features {
+        font-size: 2.5rem;
+    }
+
+    .icon-tick,
+    .icon-plane,
+    .icon-star {
+        font-size: 7rem;
+    }
+
+    .video {
+        width: 70%;
+        height: 35rem;
+        padding: 0;
+
+        &__embededfile {
+            height: 100%;
+        }
+    }
+
+    .pricing {
+        width: 90%;
+        margin: 5rem auto;
+        display: flex;
+        justify-content: space-evenly;
+
+        font-size: 1.8rem;
+
+        &__box {
+            width: 30%;
+        }
+
+        &__price {
+            font-size: 3rem;
+        }
+
+        &__info {
+            margin-bottom: $padding-medium;
+        }
+    }
+
+    .footer {
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .header {
+        height: 15vh;
+    }
+
+    .logo {
+        width: 50%;
+    }
+}

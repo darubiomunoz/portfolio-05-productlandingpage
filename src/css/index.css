@@ -77,13 +77,13 @@ html {
 
 .navmenu ul {
   display: none;
-  width: 10.5rem;
+  width: 11rem;
   padding: 1rem;
   position: absolute;
   top: 2.5rem;
   right: -20rem;
   list-style: none;
-  background-color: #EEE;
+  background-color: #FF8C00;
 }
 
 .navmenu ul li {
@@ -101,6 +101,7 @@ html {
 
 .navmenu__section {
   font-size: 1.4rem;
+  font-weight: 700;
   text-align: end;
   text-decoration: underline;
   color: #000;
@@ -116,7 +117,7 @@ html {
 }
 
 .contact {
-  padding: 3rem 0;
+  padding: 3rem 0.5rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -241,6 +242,7 @@ html {
 
 .pricing__info {
   margin-bottom: 0.5rem;
+  text-align: center;
 }
 
 .footer {
@@ -292,5 +294,125 @@ html {
 
 .video__embededfile {
   width: 100%;
+}
+
+@media screen and (min-width: 411px) {
+  .video {
+    width: 70%;
+  }
+  .pricing {
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    height: 10vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 1.8rem;
+  }
+  .logo {
+    width: 50%;
+    height: 70%;
+  }
+  .navmenu i {
+    display: none;
+  }
+  .navmenu ul {
+    width: auto;
+    padding: 0;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    top: 0;
+    right: 0;
+    background-color: #FFF;
+  }
+  .navmenu li {
+    margin-bottom: 0;
+    margin-right: 1.5rem;
+  }
+  .navmenu__section {
+    font-size: 1.8rem;
+    text-decoration: none;
+  }
+  .navmenu:focus ul, .navmenu:hover ul, .navmenu:active ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    right: 0;
+  }
+  .title--contact {
+    font-size: 3.5rem;
+  }
+  .contact__email {
+    font-size: 1.8rem;
+  }
+  .button--contact, .button--pricing {
+    font-size: 1.8rem;
+  }
+  .features {
+    width: 70%;
+  }
+  .features > div {
+    padding: 2rem 0;
+  }
+  .features__info {
+    font-size: 1.8rem;
+  }
+  .title--features {
+    font-size: 2.5rem;
+  }
+  .icon-tick,
+  .icon-plane,
+  .icon-star {
+    font-size: 7rem;
+  }
+  .video {
+    width: 70%;
+    height: 35rem;
+    padding: 0;
+  }
+  .video__embededfile {
+    height: 100%;
+  }
+  .pricing {
+    width: 90%;
+    margin: 5rem auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    font-size: 1.8rem;
+  }
+  .pricing__box {
+    width: 30%;
+  }
+  .pricing__price {
+    font-size: 3rem;
+  }
+  .pricing__info {
+    margin-bottom: 1.5rem;
+  }
+  .footer {
+    font-size: 1.8rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .header {
+    height: 15vh;
+  }
+  .logo {
+    width: 50%;
+  }
 }
 /*# sourceMappingURL=index.css.map */
