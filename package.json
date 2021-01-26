@@ -1,0 +1,35 @@
+{
+  "name": "project-05-productladingpage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darubiomunoz/portfolio-05-productlandingpage.git"
+  },
+  "keywords": [
+    "HTML",
+    "Semantic",
+    "HTML",
+    "Mobile",
+    "First",
+    "Responsive",
+    "Design",
+    "CSS",
+    "Sass",
+    "BEM",
+    "Screen",
+    "Reader",
+    "Git",
+    "GitHub"
+  ],
+  "author": "Diego Rubio <darubiomunoz@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/darubiomunoz/portfolio-05-productlandingpage/issues"
+  },
+  "homepage": "https://github.com/darubiomunoz/portfolio-05-productlandingpage#readme"
+}
